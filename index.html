@@ -1,19 +1,28 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Chowdary Mohammad Fawaz - Portfolio</title>
+  <!-- Link to the external stylesheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- Google Fonts for a modern, minimalistic look -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>Chowdary Mohammad Fawaz</h1>
-    <p>Third-Year CSE Student | Aspiring Engineer | Web, Cloud, AI Enthusiast</p>
+
+  <!-- Header Section -->
+  <header class="main-header">
+    <div class="header-content">
+      <h1 class="header-title">Chowdary Mohammad Fawaz</h1>
+      <p class="header-subtitle">Third-Year CSE Student | Aspiring Engineer | Web, Cloud, AI Enthusiast</p>
+    </div>
   </header>
 
-  <nav>
+  <!-- Navigation -->
+  <nav class="main-nav">
     <ul>
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
@@ -23,56 +32,81 @@
     </ul>
   </nav>
 
-  <div class="container">
-    <section id="about">
-      <h2>About Me</h2>
-      <p>Welcome! I'm a third-year Computer Science Engineering student with a passion for continuous learning and a knack for solving challenges. My interests span web technologies, cloud computing, and machine learning & AI. This portfolio is a showcase of my journey and my commitment to becoming a versatile engineer.</p>
+  <main class="container">
+    
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+        Welcome! I'm a third-year Computer Science Engineering student with a passion for continuous learning and a knack for solving challenges. My interests span web technologies, cloud computing, and machine learning & AI. This portfolio is a showcase of my journey and my commitment to becoming a versatile engineer.
+      </p>
     </section>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Java, Python, C</li>
-        <li>HTML, CSS</li>
-        <li>DBMS, SQL</li>
-        <li>Advanced Data Structures & Algorithms (ADSA)</li>
-        <li>Operating Systems, Software Engineering</li>
-        <li>Quantum Theory, Computer Networks, Automata Theory</li>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <span class="skill-tag">Java</span>
+        <span class="skill-tag">Python</span>
+        <span class="skill-tag">C</span>
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">DBMS</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Advanced Data Structures & Algorithms (ADSA)</span>
+        <span class="skill-tag">Operating Systems</span>
+        <span class="skill-tag">Software Engineering</span>
+        <span class="skill-tag">Quantum Theory</span>
+        <span class="skill-tag">Computer Networks</span>
+        <span class="skill-tag">Automata Theory</span>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2 class="section-title">Projects</h2>
+      <ul class="project-list">
+        <li class="project-item">
+          <p class="project-title">QR Code Generator</p>
+          <p class="project-description">A simple project to generate QR codes. [<a href="https://github.com/Fawaz-cmd" target="_blank">GitHub</a>]</p>
+        </li>
+        <li class="project-item">
+          <p class="project-title">E-Commerce Website</p>
+          <p class="project-description">A functional online shopping platform. [<a href="https://github.com/Fawaz-cmd" target="_blank">GitHub</a>]</p>
+        </li>
       </ul>
     </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      <ul>
-        <li><strong>QR Code Generator</strong> – A simple project to generate QR codes. [<a href="https://github.com/Fawaz-cmd" target="_blank">GitHub</a>]</li>
-        <li><strong>E-Commerce Website</strong> – A functional online shopping platform. [<a href="https://github.com/Fawaz-cmd" target="_blank">GitHub</a>]</li>
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+      <h2 class="section-title">Achievements</h2>
+      <ul class="achievements-list">
+        <li><span class="icon">🏆</span> Won a Quiz Competition in College</li>
+        <li><span class="icon">🥇</span> 1st Place in Ad Making</li>
+        <li><span class="icon">📜</span> AICTE Eduskills Certifications: Google Android Developer, Embedded Systems</li>
+        <li><span class="icon">📜</span> edX Microprocessor Certification</li>
+        <li><span class="icon">📜</span> GeeksforGeeks Generative AI Certification</li>
+        <li><span class="icon">📜</span> IBM Certification</li>
+        <li><span class="icon">📜</span> And many more...</li>
       </ul>
     </section>
 
-    <section id="achievements">
-      <h2>Achievements</h2>
-      <ul>
-        <li>🏆 Won a Quiz Competition in College</li>
-        <li>🥇 1st Place in Ad Making</li>
-        <li>📜 AICTE Eduskills Certifications: Google Android Developer, Embedded Systems</li>
-        <li>📜 edX Microprocessor Certification</li>
-        <li>📜 GeeksforGeeks Generative AI Certification</li>
-        <li>📜 IBM Certification</li>
-        <li>And many more...</li>
-      </ul>
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-info">
+        <p><span class="icon">✉</span> Email: <a href="mailto:fawazcmd834@gmail.com">fawazcmd834@gmail.com</a></p>
+        <p><span class="icon">🔗</span> LinkedIn: <a href="https://www.linkedin.com/in/chowdary-mohammad-fawaz-8b4b562bb" target="_blank">linkedin.com/in/chowdary-mohammad-fawaz</a></p>
+        <p><span class="icon">💻</span> GitHub: <a href="https://github.com/Fawaz-cmd" target="_blank">github.com/Fawaz-cmd</a></p>
+        <p><span class="icon">📞</span> Phone: <a href="tel:+918341563005">+91 8341563005</a></p>
+      </div>
     </section>
+  </main>
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:fawazcmd834@gmail.com">fawazcmd834@gmail.com</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/chowdary-mohammad-fawaz-8b4b562bb" target="_blank">linkedin.com/in/chowdary-mohammad-fawaz</a></p>
-      <p>GitHub: <a href="https://github.com/Fawaz-cmd" target="_blank">github.com/Fawaz-cmd</a></p>
-      <p>Phone: <a href="tel:+918341563005">+91 8341563005</a></p>
-    </section>
-  </div>
-
-  <footer>
-    <p>&copy; 2025 Chowdary Mohammad Fawaz | Portfolio</p>
+  <!-- Footer -->
+  <footer class="main-footer">
+    <p>&copy; 2025 Chowdary Mohammad Fawaz | All Rights Reserved</p>
   </footer>
+
 </body>
 </html>
